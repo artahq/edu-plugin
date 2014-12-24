@@ -1,0 +1,81 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="supports.war">
+    <output-path>$PROJECT_DIR$/../../../jboss-as-7.1.1.Final/standalone/deployments/</output-path>
+    <root id="archive" name="supports.war">
+      <element id="javaee-facet-resources" facet="maps-web/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="maps-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../gwt-maps-1.1.0/gwt-maps.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../gwt-maps-3.8.0/gwt-maps.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../smartgwt-4.0/smartgwt.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../gwt-2.5.1/gwt-servlet.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../mysql-connector-java-5.1.27/mysql-connector-java-5.1.27-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../mar.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../AddingPillars/libs/jackson-core-2.2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/aynergy-artifacts/aicommon-src.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/aynergy-artifacts/Information-src.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/aynergy-artifacts/asforms-src.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/synergy-deps/editor-0.1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/aynergy-artifacts/synergy-web-src.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/aynergy-artifacts/am-common-src.jar" />
+          <element id="file-copy" path="/opt/synergy/jboss/standalone/deployments/supports.ear/supports.jar" />
+          <element id="file-copy" path="$USER_HOME$/IdeaProjects/Arta/manifest/libs/gson-2.2.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../gwt-2.5.1/gwt-servlet-deps.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../gwt-2.5.1/gwt-benchmark-viewer.war" />
+          <element id="file-copy" path="$PROJECT_DIR$/../gwt-2.5.1/gwt-soyc-vis.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../google-gson-2.2.4/gson-2.2.4-javadoc.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../google-gson-2.2.4/gson-2.2.4-sources.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../google-gson-2.2.4/gson-2.2.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../gwt-2.5.1/gwt-api-checker.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../jackson/jackson-core-2.2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../mysql_connector/mysql-connector-java-5.1.27-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../gwt-2.5.1/requestfactory-apt.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../gwt-2.5.1/requestfactory-client+src.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../gwt-2.5.1/requestfactory-client-src.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../gwt-2.5.1/requestfactory-client.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../gwt-2.5.1/requestfactory-server+src.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../gwt-2.5.1/requestfactory-server-src.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../gwt-2.5.1/requestfactory-server.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../smartgwt-3.1/smartgwt.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../gwt-2.5.1/validation-api-1.0.0.GA-sources.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../gwt-2.5.1/validation-api-1.0.0.GA.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../json-simple-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../jackson/jackson-core-asl-1.9.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../jackson/jackson-mapper-asl-1.9.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../smartgwt-3.1/smartgwt-skins.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/gson-2.2.4-javadoc.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/gson-2.2.4-sources.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/gson-2.2.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/gwt-api-checker.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/gwt-benchmark-viewer.war" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/gwt-dev.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/gwt-maps.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/gwt-servlet-deps.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/gwt-servlet.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/gwt-soyc-vis.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/gwt-user.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/jackson-core-2.2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/jackson-core-asl-1.9.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/jackson-mapper-asl-1.9.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/json-simple-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/requestfactory-apt.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/requestfactory-client+src.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/requestfactory-client-src.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/requestfactory-client.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/requestfactory-server+src.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/requestfactory-server-src.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/requestfactory-server.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/smartgwt-skins.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/smartgwt.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/supports.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/validation-api-1.0.0.GA-sources.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../libs/validation-api-1.0.0.GA.jar" />
+        </element>
+      </element>
+      <element id="gwt-compiler-output" facet="maps-web/gwt/GWT" />
+    </root>
+  </artifact>
+</component>

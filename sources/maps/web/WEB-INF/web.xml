@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+
+    <servlet>
+        <servlet-name>kz.arta.synergy.maps.gwt.Maps GetMarkers</servlet-name>
+        <servlet-class>kz.arta.synergy.maps.gwt.server.GetMarkersImpl</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>kz.arta.synergy.maps.gwt.Maps ServerGateway</servlet-name>
+        <servlet-class>kz.arta.synergy.maps.gwt.server.ServerGetwayImpl</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>kz.arta.synergy.maps.gwt.Maps GetMarkers</servlet-name>
+        <url-pattern>/kz.arta.synergy.maps.gwt.Maps/GetMarkers</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>kz.arta.synergy.maps.gwt.Maps ServerGateway</servlet-name>
+        <url-pattern>/kz.arta.synergy.maps.gwt.Maps/ServerGateway</url-pattern>
+    </servlet-mapping>
+
+</web-app>
