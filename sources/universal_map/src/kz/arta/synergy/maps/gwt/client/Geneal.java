@@ -159,7 +159,7 @@ public class Geneal {
         map.addRightClickListener(new GoogleMap.RightClickHandler() {
             @Override
             public void handle(final MouseEvent event) {
-                SC.ask("Привязать к точке объкт?", new BooleanCallback() {
+                SC.ask("Привязать к точке объект?", new BooleanCallback() {
                     @Override
                     public void execute(Boolean value) {
                         if (value) {

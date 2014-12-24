@@ -20,7 +20,7 @@ public class BindSODialogBox extends DialogBox {
     public String selecetedId;
     public BindSODialogBox(List<SportObject> sportsObjects, final double lat, final double lng,final MarkersAction markersAction){
         this.soList = sportsObjects;
-        setText("Привязка объкта к карте");
+        setText("Привязка объекта к карте");
         setAnimationEnabled(true);
         setGlassEnabled(true);
         setWidth("500px");
